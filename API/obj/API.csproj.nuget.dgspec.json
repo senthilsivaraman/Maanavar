@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\API\\API.csproj": {}
+    "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\API\\API.csproj": {
+    "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\API\\API.csproj",
+        "projectPath": "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\API.csproj",
         "packagesPath": "C:\\Users\\sangu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\API\\obj\\",
+        "outputPath": "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,7 +44,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0-rc.1.20451.13, )"
             },
