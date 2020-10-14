@@ -55,3 +55,7 @@ C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.Identity
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Newtonsoft.Json.dll
