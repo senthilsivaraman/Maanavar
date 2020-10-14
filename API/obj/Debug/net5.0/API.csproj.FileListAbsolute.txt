@@ -51,3 +51,7 @@ C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\runtimes\win-x64\n
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Humanizer.dll
 C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sangu\Documents\GitHub\Maanavar\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

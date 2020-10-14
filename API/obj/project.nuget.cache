@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iB67cc+XAo8Rp+PokPTGxA0wCoFtjYjA4SGrJtHjDqgc3xaRAAoIEGpFSp6piTnVMZVKHw/OrhAW2DdXuBd7XA==",
+  "dgSpecHash": "K55vyxm6EZiTE96uckjBtD8N+pDdN8YmLW1Y10Tlwdx8bapXfXLm+LoAGticvkNaf1GvpOQr6t+jiQ4hc/Ltbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sangu\\Documents\\GitHub\\Maanavar\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,9 @@
     "C:\\Users\\sangu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-rc.1.20451.14\\microsoft.extensions.logging.abstractions.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-rc.1.20451.14\\microsoft.extensions.options.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-rc.1.20451.14\\microsoft.extensions.primitives.5.0.0-rc.1.20451.14.nupkg.sha512",
+    "C:\\Users\\sangu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\sangu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\sangu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.3\\sqlitepclraw.bundle_e_sqlite3.2.0.3.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -38,7 +41,9 @@
     "C:\\Users\\sangu\\.nuget\\packages\\system.collections.immutable\\5.0.0-rc.1.20451.14\\system.collections.immutable.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.1.20451.14\\system.componentmodel.annotations.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\sangu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0-rc.1.20451.14\\system.diagnostics.diagnosticsource.5.0.0-rc.1.20451.14.nupkg.sha512",
-    "C:\\Users\\sangu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\sangu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\sangu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\sangu\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
