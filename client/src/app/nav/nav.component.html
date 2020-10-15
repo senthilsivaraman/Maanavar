@@ -1,12 +1,13 @@
 <section>
     <div class="containers1">
+
     <div class="user signinBx">
         <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/maanavar_logo.jpg?raw=true" alt="" /></div>
         <div class="formBx">
-        <form action="" onsubmit="return false;">
+        <form #loginForm="ngForm" action="" (ngSubmit)="login()" autocomplete="off" onsubmit="return false;">
             <h2>Sign In</h2>
-            <input type="text" name="" placeholder="Username" />
-            <input type="password" name="" placeholder="Password" />
+            <input type="text" name="username" [(ngModel)]="model.username" placeholder="Username" />
+            <input type="password" name="password" [(ngModel)]="model.password" placeholder="Password" />
             <input type="submit" name="" value="Login" />
             <p class="signup">
             Don't have an account ?
@@ -17,9 +18,9 @@
     </div>
     <div class="user signupBx">
         <div class="formBx">
-        <form action="" onsubmit="return false;">
+        <form #registerForm="ngForm" action="" onsubmit="return false;">
             <h2>Create an account</h2>
-            <input type="text" name="" placeholder="Username" />
+            <input type="text" name="username" placeholder="Username" />
             <input type="email" name="" placeholder="Email Address" />
             <input type="password" name="" placeholder="Create Password" />
             <input type="password" name="" placeholder="Confirm Password" />
@@ -32,5 +33,6 @@
         </div>
         <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/homeSignin.jpg?raw=true" alt="" /></div>
     </div>
+
     </div>
 </section>
