@@ -1,0 +1,39 @@
+<section>
+    <div *ngIf="!loggedIn" class="containers1">
+
+    <div class="user signinBx">
+        <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/maanavar_logo.jpg?raw=true" alt="" /></div>
+        <div class="formBx">
+        <form #loginForm="ngForm" action="" (ngSubmit)="login()" autocomplete="off" onsubmit="return false;">
+            <h2>Sign In</h2>
+            <input type="text" name="username" [(ngModel)]="model.username" placeholder="Username" />
+            <input type="password" name="password" [(ngModel)]="model.password" placeholder="Password" />
+            <input type="submit" name="" value="Login" />
+            <p class="signup">
+            Don't have an account ?
+            <a href="#" onclick="toggleForm();">Sign Up.</a><br>   <br>
+            <a class="text-danger" href="#">Not able to access ??</a>
+            </p>
+        </form>
+        </div>
+    </div>
+    <div class="user signupBx">
+        <div class="formBx">
+        <form #registerForm="ngForm" action="" onsubmit="return false;">
+            <h2>Create an account</h2>
+            <input type="text" name="username" placeholder="Username" />
+            <input type="email" name="" placeholder="Email Address" />
+            <input type="password" name="" placeholder="Create Password" />
+            <input type="password" name="" placeholder="Confirm Password" />
+            <input type="submit" name="" value="Sign Up" />
+            <p class="signup">
+            Already have an account ?
+            <a href="#" onclick="toggleForm();">Sign in.</a>
+            </p>
+        </form>
+        </div>
+        <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/homeSignin.jpg?raw=true" alt="" /></div>
+    </div>
+
+    </div>
+</section>

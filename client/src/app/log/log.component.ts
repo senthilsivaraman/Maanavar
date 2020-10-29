@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { AccountService } from '../_services/account.service';
 
-
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  selector: 'app-log',
+  templateUrl: './log.component.html',
+  styleUrls: ['./log.component.css']
 })
-export class NavComponent implements OnInit {
+export class LogComponent implements OnInit {
 
   model: any = {}
   loggedIn: boolean;
@@ -28,4 +27,5 @@ export class NavComponent implements OnInit {
   logout(){
     this.loggedIn = false;
   }
+
 }
