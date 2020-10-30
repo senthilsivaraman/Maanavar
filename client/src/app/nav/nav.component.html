@@ -22,12 +22,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Privacy Policy</a>
         </li>
-        <li *ngIf="loggedIn" class="nav-item">
-          <a class="nav-link" (click)="logout()" href="#">Sign Out</a>
-        </li>
       </ul>
 
-      <div  *ngIf="loggedIn" class="dropdown" dropdown>
+      <div  *ngIf="accountService.currentUser$ | async" class="dropdown" dropdown>
         <a class="dropdown-toggle text-light" dropdownToggle>
           Welcome user
         </a>

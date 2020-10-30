@@ -1,5 +1,5 @@
 <section>
-    <div *ngIf="!loggedIn" class="containers1">
+    <div *ngIf="(accountService.currentUser$ | async) === null" class="containers1">
 
     <div class="user signinBx">
         <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/maanavar_logo.jpg?raw=true" alt="" /></div>
@@ -24,11 +24,11 @@
         <div class="formBx">
         <form #registerForm="ngForm">
             <h2>Create an account</h2>
-            <input type="text" name="username" placeholder="Username" />
-            <input type="email" name="" placeholder="Email Address" />
-            <input type="password" name="" placeholder="Create Password" />
-            <input type="password" name="" placeholder="Confirm Password" />
-            <input type="submit" name="" value="Sign Up" />
+            <input class="form-control mr-sm-2" type="text" name="username" placeholder="Username" [(ngModel)]="model.username"/>
+            <input class="form-control mr-sm-2" type="email" name="email" placeholder="Email Address" [(ngModel)]="model.email" />
+            <input class="form-control mr-sm-2" type="password" name="password" placeholder="Create Password"[(ngModel)]="model.password"  />
+            <input class="form-control mr-sm-2" type="password" name="password" placeholder="Confirm Password" [(ngModel)]="model.password" />
+            <button [disabled]="!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Sign Up</button>
             <p class="signup">
             Already have an account ?
             <a href="#" onclick="toggleForm();">Sign in.</a>
