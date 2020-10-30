@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserlogComponent } from './userlog/userlog.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -20,6 +21,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     NavComponent,
     DashboardComponent,
     UserlogComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
