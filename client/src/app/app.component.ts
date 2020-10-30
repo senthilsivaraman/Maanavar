@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { User } from './_models/user';
+import { AccountService } from './_services/account.service';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +12,16 @@ export class AppComponent implements OnInit {
   title = 'Maanavar - Learning Management System';
   users: any;
 
-  constructor(private http: HttpClient) {} //Constructor Injection corre to angular
+  constructor(private http: HttpClient, private accountService: AccountService) {} //Constructor Injection corre to angular
 
   ngOnInit(): void {
     this.getUsers();
+    this.setCurrentUser();
+  }
+
+  setCurrentUser() {
+    const user: User = JSON.parse(localStorage.getItem('user'));
+    this.accountService.setCurrentUser(user);
   }
 
   getUsers() {

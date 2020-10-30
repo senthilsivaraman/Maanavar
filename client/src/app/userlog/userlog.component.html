@@ -4,22 +4,25 @@
     <div class="user signinBx">
         <div class="imgBx"><img src="https://github.com/senthilsivaraman/Maanavar/blob/main/maanavar_logo.jpg?raw=true" alt="" /></div>
         <div class="formBx">
-        <form #loginForm="ngForm" action="" (ngSubmit)="login()" autocomplete="off" onsubmit="return false;">
+        <form #loginForm="ngForm" class="form-inline my-2 my-lg-0" (ngSubmit)="login()">
             <h2>Sign In</h2>
-            <input type="text" name="username" [(ngModel)]="model.username" placeholder="Username" />
-            <input type="password" name="password" [(ngModel)]="model.password" placeholder="Password" />
-            <input type="submit" name="" value="Login" />
-            <p class="signup">
-            Don't have an account ?
-            <a href="#" onclick="toggleForm();">Sign Up.</a><br>   <br>
-            <a class="text-danger" href="#">Not able to access ??</a>
-            </p>
+            <input class="form-control mr-sm-2" type="text" name="username" placeholder="Username" [(ngModel)]="model.username" />
+            <input class="form-control mr-sm-2" type="password" name="password" placeholder="Password" [(ngModel)]="model.password"/>
+            <button [disabled]="!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+            <div>
+                <p class="signup ml-3">
+                    Don't have an account ?
+                    <a href="#" onclick="toggleForm();">Sign Up.</a><br>   <br>
+                    <a class="text-danger" href="#">Not able to access ??</a>
+                </p>
+            </div>
+            
         </form>
         </div>
     </div>
     <div class="user signupBx">
         <div class="formBx">
-        <form #registerForm="ngForm" action="" onsubmit="return false;">
+        <form #registerForm="ngForm">
             <h2>Create an account</h2>
             <input type="text" name="username" placeholder="Username" />
             <input type="email" name="" placeholder="Email Address" />

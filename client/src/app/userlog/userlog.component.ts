@@ -1,18 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { AccountService } from '../_services/account.service';
 
+
 @Component({
-  selector: 'app-log',
-  templateUrl: './log.component.html',
-  styleUrls: ['./log.component.css']
+  selector: 'app-userlog',
+  templateUrl: './userlog.component.html',
+  styleUrls: ['./userlog.component.css']
 })
-export class LogComponent implements OnInit {
+export class UserlogComponent implements OnInit {
 
   model: any = {}
   loggedIn: boolean;
   constructor(private accountService: AccountService) { }
 
   ngOnInit(): void {
+    this.getCurrentUser();
   }
 
   login() {
@@ -25,7 +27,15 @@ export class LogComponent implements OnInit {
   }
 
   logout(){
+    this.accountService.logout();
     this.loggedIn = false;
   }
 
+  getCurrentUser() {
+    this.accountService.currentUser$.subscribe(user => {
+      this.loggedIn = !!user;
+    }, error => {
+      console.log(error);
+    })
+  }
 }

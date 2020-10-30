@@ -22,10 +22,21 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Privacy Policy</a>
         </li>
+        <li *ngIf="loggedIn" class="nav-item">
+          <a class="nav-link" (click)="logout()" href="#">Sign Out</a>
+        </li>
       </ul>
 
-      <div class="dropdown" *ngIf="loggedIn">
-        <a class="dropdown-toggle text-light"> Welcome</a>
+      <div  *ngIf="loggedIn" class="dropdown" dropdown>
+        <a class="dropdown-toggle text-light" dropdownToggle>
+          Welcome user
+        </a>
+        <div class="dropdown-menu mt-2" *dropdownMenu>
+        <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Edit Profile</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" (click)="logout()"><i class="fa fa-sign-out"></i> Logout</a>
       </div>
     </div>
+
+  </div>
   </nav>

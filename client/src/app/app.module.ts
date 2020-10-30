@@ -1,14 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms'
-
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+
+import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { LogComponent } from './log/log.component';
+import { UserlogComponent } from './userlog/userlog.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
 
 
 
@@ -17,15 +19,15 @@ import { LogComponent } from './log/log.component';
     AppComponent,
     NavComponent,
     DashboardComponent,
-    LogComponent,
+    UserlogComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FormsModule
-
+    FormsModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
