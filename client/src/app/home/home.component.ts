@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   userlogMode = false;
+  users: any;
 
   constructor() { }
 
@@ -16,5 +17,9 @@ export class HomeComponent implements OnInit {
 
   userlogToggle() {
     this.userlogMode = !this.userlogMode;
+  }
+
+  getUsers(){
+    
   }
 }

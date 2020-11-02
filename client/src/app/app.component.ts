@@ -12,10 +12,10 @@ export class AppComponent implements OnInit {
   title = 'Maanavar - Learning Management System';
   users: any;
 
-  constructor(private http: HttpClient, private accountService: AccountService) {} //Constructor Injection corre to angular
+  constructor(private accountService: AccountService) {} //Constructor Injection corre to angular
 
   ngOnInit(): void {
-    this.getUsers();
+
     this.setCurrentUser();
   }
 
@@ -24,12 +24,6 @@ export class AppComponent implements OnInit {
     this.accountService.setCurrentUser(user);
   }
 
-  getUsers() {
-    this.http.get('https://localhost:5001/api/users').subscribe(response => {
-      this.users = response;
-    }, error => {
-      console.log(error);
-    })
-  }
+
   
 }
