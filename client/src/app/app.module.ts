@@ -11,6 +11,18 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserlogComponent } from './userlog/userlog.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HomeComponent } from './home/home.component';
+import { MessagesComponent } from './messages/messages.component';
+import { LibraryComponent } from './library/library.component';
+import { CalenderComponent } from './calender/calender.component';
+import { TranscriptsComponent } from './common/transcripts/transcripts.component';
+import { UnivannouncementComponent } from './common/univannouncement/univannouncement.component';
+import { MaanavarannouncementComponent } from './common/maanavarannouncement/maanavarannouncement.component';
+import { DownloadablecontentComponent } from './course/downloadablecontent/downloadablecontent.component';
+import { AssignmentsComponent } from './course/assignments/assignments.component';
+import { LiveclassComponent } from './course/liveclass/liveclass.component';
+import { GradesComponent } from './course/grades/grades.component';
+import { CourseannouncementComponent } from './course/courseannouncement/courseannouncement.component';
+import { CourseschduleComponent } from './course/courseschdule/courseschdule.component';
 
 
 
@@ -22,6 +34,18 @@ import { HomeComponent } from './home/home.component';
     DashboardComponent,
     UserlogComponent,
     HomeComponent,
+    MessagesComponent,
+    LibraryComponent,
+    CalenderComponent,
+    TranscriptsComponent,
+    UnivannouncementComponent,
+    MaanavarannouncementComponent,
+    DownloadablecontentComponent,
+    AssignmentsComponent,
+    LiveclassComponent,
+    GradesComponent,
+    CourseannouncementComponent,
+    CourseschduleComponent,
   ],
   imports: [
     BrowserModule,
