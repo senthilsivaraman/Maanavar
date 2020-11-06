@@ -23,6 +23,10 @@ import { LiveclassComponent } from './course/liveclass/liveclass.component';
 import { GradesComponent } from './course/grades/grades.component';
 import { CourseannouncementComponent } from './course/courseannouncement/courseannouncement.component';
 import { CourseschduleComponent } from './course/courseschdule/courseschdule.component';
+import { EnrolledcoursesComponent } from './course/enrolledcourses/enrolledcourses.component';
+import { ProfileComponent } from './user/profile/profile.component';
+import { NotesComponent } from './user/notes/notes.component';
+
 
 
 
@@ -46,6 +50,10 @@ import { CourseschduleComponent } from './course/courseschdule/courseschdule.com
     GradesComponent,
     CourseannouncementComponent,
     CourseschduleComponent,
+    EnrolledcoursesComponent,
+    ProfileComponent,
+    NotesComponent,
+    
   ],
   imports: [
     BrowserModule,
