@@ -34,5 +34,11 @@ export class UserlogComponent implements OnInit {
   
   }
 
-  
+  cancel(){
+
+  }
+
+  register() {
+    
+  }
 }
