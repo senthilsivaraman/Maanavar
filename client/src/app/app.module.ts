@@ -30,7 +30,6 @@ import { NotesComponent } from './user/notes/notes.component';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,

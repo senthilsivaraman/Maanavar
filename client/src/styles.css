@@ -1,13 +1,18 @@
-body{
-   /* background-image: url("src\assets\Images\background.jpg"); */
-   background-color: white;
- 
-   font-family: 'Open Sans', arial, sans-serif;
-   font-weight: 700;
-   
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: antiquewhite;
 }
 
-.nav-link {
-   text-transform: uppercase;
+.skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn {
+    box-shadow: none;
+    background-color: white;
+    border: 1px solid transparent;
+    height: 35px;
 }

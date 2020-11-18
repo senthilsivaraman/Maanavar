@@ -31,8 +31,13 @@ export class UserlogComponent implements OnInit {
 
   logout(){
     this.accountService.logout();
-  
   }
 
-  
+  cancel(){
+
+  }
+
+  register() {
+    
+  }
 }

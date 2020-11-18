@@ -1,0 +1,152 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    margin: 0;
+    display:block;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+  }
+  
+  h5 {
+    text-transform: uppercase;
+    color: #9B9B9B;
+    font-weight: normal;
+  }
+  
+  .search-bar {
+    background: yellow;
+    padding: 2em 0;
+    color: white;
+    margin-bottom: 1em;
+  }
+
+  .h1head {
+      margin: 0 0 .5em;  
+  }
+    
+
+  .search-bar.input-bar {
+    background-color: white;
+    padding: 1em 1em 1em;
+    border-radius: 4px;
+    color: black; 
+    margin-bottom: 2em;
+  }
+
+  .spantext{
+    color: black;
+    padding-right: 1em;
+  }
+  
+  .searchlinks {
+    border-radius: 4px;
+    padding: 1px 5px;
+  }  
+  
+
+  
+  .container {
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  .row {
+    display:flex;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .col-lg-8 {
+      -ms-flex-preferred-size:66.66%;
+      flex-basis: 66.66%;
+      max-width: 66.66%;
+  }
+  
+  .col-lg-4 {
+      -ms-flex-preferred-size:33.33%;
+      flex-basis: 33.33%;
+      max-width: 33.33%;
+  }
+  
+  .sidebar.ul {
+      padding-left: 0;
+  } 
+  .sidebar.li {
+          list-style-type: none;
+          position: relative;
+          font-size: 13px;
+  }
+
+  .sidebar.a {
+          text-decoration: none;
+          color: #222;
+        }
+        
+  .sidebar:before {
+    width: 32px;
+      display: inline-block;
+    color: #999;
+  }
+  
+  
+  .search-archive {
+    border-radius: 4px;
+    background-color: #fff;
+    display: block;
+    border: 1px solid #E8E8E8;
+    margin: 1em 0 2em;
+  }  
+
+  .search-archive.list-item {
+      border-bottom: 1px solid #e8e8e8;
+      padding: 0 2em 0 2em;
+      display: flex;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+      align-items: center;
+  } 
+
+  .search-archive.h3 {
+        font-size: 1em;
+        line-height: 1;
+        margin-bottom: 0;
+      }
+      
+  .search-archive.p {
+    line-height: 1.4;
+    margin-top: .4em;      
+  }
+  
+  
+  .search-archive:last-of-type {
+    border-bottom: none;
+  }
+
+  
+  
+  .no-answer-blurb.a {
+      color: #999;
+      text-decoration: none;
+    }
+ 
+  
+  #autocomplete{
+    max-width: 100%;
+    min-width: calc(100% - 2.4em);
+    padding: 18px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .autocomplete-suggestions { text-align: left; border: 1px solid #999; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; background: #FFF; overflow: auto; }
+  .autocomplete-suggestion { padding: 5px 5px; white-space: nowrap; overflow: hidden; cursor: pointer;}
+  .autocomplete-selected { background: #F0F0F0; }
+  .autocomplete-suggestions strong { font-weight: bold; color: black; }
+  .autocomplete-group { padding: 2px 5px; }
+  .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }

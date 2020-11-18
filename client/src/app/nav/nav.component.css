@@ -5,3 +5,11 @@
 .dropdown-toggle, .dropdown-item {
   cursor: pointer;
 }
+
+.university {
+  float: left;
+}
+
+.maanavar {
+  float: right;
+}

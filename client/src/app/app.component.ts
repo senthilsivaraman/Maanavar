@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { User } from './_models/user';
 import { AccountService } from './_services/account.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,6 +11,7 @@ import { AccountService } from './_services/account.service';
 })
 export class AppComponent implements OnInit {
   title = 'Maanavar - Learning Management System';
+
   users: any;
 
   constructor(private accountService: AccountService) {} //Constructor Injection corre to angular
