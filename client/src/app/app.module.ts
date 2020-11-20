@@ -26,6 +26,7 @@ import { CourseschduleComponent } from './course/courseschdule/courseschdule.com
 import { EnrolledcoursesComponent } from './course/enrolledcourses/enrolledcourses.component';
 import { ProfileComponent } from './user/profile/profile.component';
 import { NotesComponent } from './user/notes/notes.component';
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -60,7 +61,10 @@ import { NotesComponent } from './user/notes/notes.component';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    ToastrModule.forRoot({
+      positionClass: 'toast-bottom-right'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
