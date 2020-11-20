@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   users: any;
 
-  constructor(private accountService: AccountService) {} //Constructor Injection corre to angular
+  constructor(public accountService: AccountService) {} //Constructor Injection corre to angular
 
   ngOnInit(): void {
 
