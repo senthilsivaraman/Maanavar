@@ -10,6 +10,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { NotesComponent } from './user/notes/notes.component';
 import { ProfileComponent } from './user/profile/profile.component';
 import { UserlogComponent } from './userlog/userlog.component';
+import { AuthGuard } from './_guards/auth.guard';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
   {path:'announcements', component: MaanavarannouncementComponent},
   {path:'userreg', component: UserlogComponent},
   {path:'profile', component: ProfileComponent},
-  {path:'dashboard', component: DashboardComponent},
+  {path:'dashboard', component: DashboardComponent, canActivate:[AuthGuard]},
   {path:'notes', component: NotesComponent},
   {path:'courses', component: EnrolledcoursesComponent},
   {path:'elibrary', component: LibraryComponent},
