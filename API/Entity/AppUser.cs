@@ -26,5 +26,10 @@ namespace API.Entity
         public int MobileNumber { get; set; }
         public int AdditionalNumber { get; set; }
         public ICollection<Photo> Photos { get; set; }
+
+        public string Department { get; set; }
+        public int DepartmentId { get; set; }
+        public int Semester { get; set; }
+        
     }
 }
