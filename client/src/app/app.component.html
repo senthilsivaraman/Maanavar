@@ -1,8 +1,4 @@
-
-<div>
-    <app-nav></app-nav>
-</div>
-
+<app-nav *ngIf="(accountService.currentUser$ | async) === null" ></app-nav>
 <router-outlet></router-outlet>
 
 
